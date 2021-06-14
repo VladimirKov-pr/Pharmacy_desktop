@@ -1,0 +1,82 @@
+{
+    "source1": {
+        "prepare": {
+            "host": "https://vseapteki.ru/",
+            "absolute_path": "search/?query=*&page=*",
+            "pages_container": "_2Hqv1i2Jj-",
+            "pages_tag": "a",
+            "pages": "_2whohI4mgr _2AYeA2cEkM _1_90QFdlYy",
+            "pages_counter": 1,
+            "pages_feature": 1,
+            "items_container": "_19a401nbci",
+            "items_tag": "a",
+            "items": "_2whohI4mgr _2AYeA2cEkM _2tMRDkEBMo",
+            "item_name_tag": "h3",
+            "item_name_class": "_13-MYHUyJL",
+            "item_price_tag": "div",
+            "item_price_class": "_25N2Cg4hS0",
+            "item_name_content": ".contents[0]",
+            "item_price_content": ".contents[0]"
+        }
+    },
+    "source2": {
+        "prepare": {
+            "host": "https://apteka-ot-sklada.ru/",
+            "absolute_path": "catalog?q=*&start=*",
+            "pages_container": "ui-pagination__list",
+            "pages_tag": "a",
+            "pages": "ui-pagination__link_number",
+            "pages_counter": 12,
+            "pages_feature": 0,
+            "items_container": "goods-grid__inner",
+            "items_tag": "a",
+            "items": "",
+            "item_name_tag": "div",
+            "item_name_class": "goods-card__name text text_size_default text_weight_medium",
+            "item_price_tag": "div",
+            "item_price_class": "goods-card__price",
+            "item_name_content": ".span.contents[0]",
+            "item_price_content": ".span.text"
+        }
+    },
+    "source3": {
+        "prepare": {
+            "host":"https://novosibirsk.asna.ru/",
+            "absolute_path":"search/?query=*&page=*",
+            "pages_container":"pagination_pagination__16EMo",
+            "pages_tag":"a",
+            "pages":"",
+            "pages_counter": 1,
+            "pages_feature": 1,
+            "items_container": "productsPanel_container__qPsNf",
+            "items_tag":"a",
+            "items":"product_name__VzTPG",
+            "item_name_tag": "a",
+            "item_name_class": "product_name__VzTPG",
+            "item_price_tag": "span",
+            "item_price_class": "catalogPrice_price__TRAFl",
+            "item_name_content": ".contents[0]",
+            "item_price_content": ".contents[0]"
+        }
+    },
+    "source4": {
+        "prepare": {
+            "host":"https://zdravcity.ru/",
+            "absolute_path":"search/?order=Y&what=*",
+            "pages_container":"",
+            "pages_tag":"",
+            "pages":"",
+            "pages_counter": "",
+            "pages_feature": "",
+            "items_container": "b-issue-content__wrapper",
+            "items_tag":"a",
+            "items":"b-product-item-new__image",
+            "item_name_tag": "a",
+            "item_name_class": "b-product-item-new__title",
+            "item_price_tag": "span",
+            "item_price_class": "b-product-item-new__price--new-no-wrap",
+            "item_name_content": "['title']",
+            "item_price_content": ".span.contents[0]"
+        }
+    }
+}
